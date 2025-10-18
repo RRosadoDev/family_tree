@@ -31,11 +31,11 @@ Sistema para gestionar un árbol genealógico dinámico (Laravel + Treant.js).
 
 2. Copiar .env y generar APP_KEY
    ```
-   copy .env.example .env
+   cp .env.example .env
    php artisan key:generate
    ```
 
-3. Configurar la base de datos en `.env` (ejemplo)
+3. Configurar la base de datos en `.env`
    ```
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
